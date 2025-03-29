@@ -1,0 +1,24 @@
+name: train_yolo
+channels:
+  - anaconda
+  - nvidia
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.10
+  - cudatoolkit
+  - cudnn
+  - pip
+  - pip:
+    - tensorflow
+    - pyyaml
+    - numpy
+    - Pillow
+    - easydict
+    - termcolor
+    - checksumdir
+    - opencv-python
+    - ultralytics
+    
+    
